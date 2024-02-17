@@ -106,3 +106,6 @@ https://borealisdata.ca/dataverse/OCTID
 ```
 
 ## pre-trained model
+
+## License
+This code is released under the MIT license.
