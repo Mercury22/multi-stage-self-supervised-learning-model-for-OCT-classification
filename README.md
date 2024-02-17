@@ -41,6 +41,7 @@ pip install classy-vision@https://github.com/facebookresearch/ClassyVision/tarba
 pip uninstall -y fairscale
 pip install fairscale==0.4.6
 ```
+- VISSL citation
 ```
 @misc{goyal2021vissl,
   author =       {Priya Goyal and Quentin Duval and Jeremy Reizenstein and Matthew Leavitt and Min Xu and
@@ -52,5 +53,56 @@ pip install fairscale==0.4.6
 }
 ```
 
-## OCT dataset
-- Download the weight file
+## OCT datasets (OCT2017, Srinivasan2014, OCTID)
+- OCT2017 dataset download link
+```
+https://data.mendeley.com/datasets/rscbjbr9sj/2
+```
+- OCT2017 dataset citation
+```
+@article{kermany2018identifying,
+  title={Identifying medical diagnoses and treatable diseases by image-based deep learning},
+  author={Kermany, Daniel S and Goldbaum, Michael and Cai, Wenjia and Valentim, Carolina CS and Liang, Huiying and Baxter, Sally L and McKeown, Alex and Yang, Ge and Wu, Xiaokang and Yan, Fangbing and others},
+  journal={cell},
+  volume={172},
+  number={5},
+  pages={1122--1131},
+  year={2018},
+  publisher={Elsevier}
+}
+```
+- Srinivasan2014 dataset download link
+```
+http://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm
+```
+- Srinivasan2014 dataset citation
+```
+@article{srinivasan2014fully,
+  title={Fully automated detection of diabetic macular edema and dry age-related macular degeneration from optical coherence tomography images},
+  author={Srinivasan, Pratul P and Kim, Leo A and Mettu, Priyatham S and Cousins, Scott W and Comer, Grant M and Izatt, Joseph A and Farsiu, Sina},
+  journal={Biomedical optics express},
+  volume={5},
+  number={10},
+  pages={3568--3577},
+  year={2014},
+  publisher={Optica Publishing Group}
+}
+```
+- OCTID dataset download link
+```
+https://borealisdata.ca/dataverse/OCTID
+```
+- OCTID dataset citation
+```
+@article{gholami2020octid,
+  title={OCTID: Optical coherence tomography image database},
+  author={Gholami, Peyman and Roy, Priyanka and Parthasarathy, Mohana Kuppuswamy and Lakshminarayanan, Vasudevan},
+  journal={Computers \& Electrical Engineering},
+  volume={81},
+  pages={106532},
+  year={2020},
+  publisher={Elsevier}
+}
+```
+
+## pre-trained model
