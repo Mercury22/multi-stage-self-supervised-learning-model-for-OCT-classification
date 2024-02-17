@@ -5,3 +5,6 @@ Our model can achieve a high level of performance with only a small amount of la
 
 ![](our_multistage_model.pdf)
 
+## Pre-requisite
+- Ubuntu 18.04
+- Nvidia GPUs
