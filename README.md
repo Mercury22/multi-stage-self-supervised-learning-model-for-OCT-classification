@@ -1,4 +1,4 @@
-# multi-stage-self-supervised-learning-model-for-OCT-classification
+# Multi-stage-self-supervised-learning-model-for-OCT-classification
 
 A novel multi-stage self-supervised learning model for classifying different retinal diseases from optical coherence tomography(OCT) images.
 Our model can achieve a high level of performance with only a small amount of labeled data.
@@ -105,7 +105,7 @@ https://borealisdata.ca/dataverse/OCTID
 }
 ```
 
-## pre-trained model
+## Pre-trained model
 
 ## License
 This code is released under the MIT license.
