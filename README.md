@@ -106,8 +106,8 @@ https://borealisdata.ca/dataverse/OCTID
 ```
 
 ## Pre-trained model
-- Download the weight file for multi-stage self-supervised learning model trained on OCT2017 dataset and Srinivasan2014 dataset [Link] (https://drive.google.com/file/d/1aDlsEKDUzZo971KCAEGEVpG5cqmftxon/view?usp=sharing)
-- Download the weight file for multi-stage self-supervised learning model trained on OCT2017 dataset, Srinivasan2014 dataset, and KNUH_OCT [Link] (https://drive.google.com/file/d/1X353iPHh-4ADmQDz84QTNyfG-b-VRtGJ/view?usp=sharing)
+- Download the weight file for multi-stage self-supervised learning model trained on OCT2017 dataset and Srinivasan2014 dataset [link](https://drive.google.com/file/d/1aDlsEKDUzZo971KCAEGEVpG5cqmftxon/view?usp=sharing)
+- Download the weight file for multi-stage self-supervised learning model trained on OCT2017 dataset, Srinivasan2014 dataset, and KNUH_OCT [link](https://drive.google.com/file/d/1X353iPHh-4ADmQDz84QTNyfG-b-VRtGJ/view?usp=sharing)
 
 ## License
 This code is released under the MIT license.
