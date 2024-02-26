@@ -1,0 +1,6 @@
+{
+    "your_own_oct_dataset": {
+        "train": ["<img_path>", "<lbl_path>"],
+        "val": ["<img_path>", "<lbl_path>"]
+    }
+}
