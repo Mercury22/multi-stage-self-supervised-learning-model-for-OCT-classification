@@ -106,8 +106,22 @@ https://borealisdata.ca/dataverse/OCTID
 ```
 
 ## Pre-trained model
-- Download the weight file for multi-stage self-supervised learning model trained on OCT2017 dataset and Srinivasan2014 dataset [link](https://drive.google.com/file/d/1aDlsEKDUzZo971KCAEGEVpG5cqmftxon/view?usp=sharing)
+- Download the weight file for the multi-stage self-supervised learning model trained on OCT2017 dataset and Srinivasan2014 dataset [link](https://drive.google.com/file/d/1aDlsEKDUzZo971KCAEGEVpG5cqmftxon/view?usp=sharing)
 - Download the weight file for multi-stage self-supervised learning model trained on OCT2017 dataset, Srinivasan2014 dataset, and KNUH_OCT [link](https://drive.google.com/file/d/1X353iPHh-4ADmQDz84QTNyfG-b-VRtGJ/view?usp=sharing)
+
+
+## Train your own OCT dataset to the multi-stage self-supervised learning model
+- Insert your own OCT dataset (train/validation) path in 'your_own_oct_dataset_catalog.json' file
+- Set up the self-supervised learning model hyperparameters in 'MultiStage_train_your_own_oct_dataset.yaml' file
+- Type this command in the terminal to train your own OCT dataset (self-supervised learning stage)
+```
+python tool/run_distributed_engines.py config=./MultiStage_train_your_own_oct_dataset.yaml
+```
+- Set up the fine-tuning hyperparameters in 'MultiStage_finetune_your_own_oct_dataset.yaml' file
+- Type this command in the terminal for fine-tuning stage
+```
+python tool/run_distributed_engines.py config=./MultiStage_finetune_your_own_oct_dataset.yaml
+```
 
 ## License
 This code is released under the MIT license.
