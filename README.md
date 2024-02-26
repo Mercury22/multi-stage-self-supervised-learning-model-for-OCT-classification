@@ -115,12 +115,12 @@ https://borealisdata.ca/dataverse/OCTID
 - Set up the self-supervised learning model hyperparameters in 'MultiStage_train_your_own_oct_dataset.yaml' file
 - Type this command in the terminal to train your own OCT dataset (self-supervised learning stage)
 ```
-python tool/run_distributed_engines.py config=./MultiStage_train_your_own_oct_dataset.yaml
+python tools/run_distributed_engines.py config=./MultiStage_train_your_own_oct_dataset.yaml
 ```
 - Set up the fine-tuning hyperparameters in 'MultiStage_finetune_your_own_oct_dataset.yaml' file
 - Type this command in the terminal for fine-tuning stage
 ```
-python tool/run_distributed_engines.py config=./MultiStage_finetune_your_own_oct_dataset.yaml
+python tools/run_distributed_engines.py config=./MultiStage_finetune_your_own_oct_dataset.yaml
 ```
 
 ## License
